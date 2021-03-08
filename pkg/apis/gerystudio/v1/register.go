@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"k8s_customize_controller/pkg/apis/gerystudio"
+	"github.com/ankyhe/k8s-customize-controller/pkg/apis/gerystudio"
 )
 
 var SchemeGroupVersion = schema.GroupVersion{
